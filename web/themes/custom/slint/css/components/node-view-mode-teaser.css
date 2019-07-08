@@ -20,18 +20,18 @@
 .node--view-mode-teaser .node__header {
   padding-bottom: 0;
 }
-.node--view-mode-teaser .field--name-field-mt-srv-teaser-image,
-.node--view-mode-teaser .field--name-field-mt-prd-teaser-image,
-.node--view-mode-teaser .field--name-field-mt-alb-image,
-.node--view-mode-teaser .field--name-field-mt-shw-image,
+.node--view-mode-teaser .field--name-field-tp-srv-teaser-image,
+.node--view-mode-teaser .field--name-field-tp-prd-teaser-image,
+.node--view-mode-teaser .field--name-field-tp-alb-image,
+.node--view-mode-teaser .field--name-field-tp-shw-image,
 .node--view-mode-teaser .field--name-field-image {
   margin-bottom: 20px;
 }
 .node--view-mode-teaser .field--name-field-image .images-container,
-.node--view-mode-teaser .field--name-field-mt-srv-teaser-image .images-container,
-.node--view-mode-teaser .field--name-field-mt-prd-teaser-image .images-container,
-.node--view-mode-teaser .field--name-field-mt-alb-image .images-container,
-.node--view-mode-teaser .field--name-field-mt-shw-image .images-container {
+.node--view-mode-teaser .field--name-field-tp-srv-teaser-image .images-container,
+.node--view-mode-teaser .field--name-field-tp-prd-teaser-image .images-container,
+.node--view-mode-teaser .field--name-field-tp-alb-image .images-container,
+.node--view-mode-teaser .field--name-field-tp-shw-image .images-container {
   margin-bottom: 0;
 }
 .node--view-mode-teaser .field--entity-reference-target-type-taxonomy-term,
@@ -78,22 +78,22 @@
   content: "";
 }
 
-.node--view-mode-teaser .field--name-field-mt-prd-body,
-.node--view-mode-teaser .field--name-field-mt-srv-body,
-.node--view-mode-teaser .field--name-field-mt-shw-body,
-.node--view-mode-teaser .field--name-field-mt-alb-body {
+.node--view-mode-teaser .field--name-field-tp-prd-body,
+.node--view-mode-teaser .field--name-field-tp-srv-body,
+.node--view-mode-teaser .field--name-field-tp-shw-body,
+.node--view-mode-teaser .field--name-field-tp-alb-body {
   margin-bottom: 15px;
 }
-.node--view-mode-teaser .field--name-field-mt-prd-body p:last-child,
-.node--view-mode-teaser .field--name-field-mt-srv-body p:last-child,
-.node--view-mode-teaser .field--name-field-mt-shw-body p:last-child,
-.node--view-mode-teaser .field--name-field-mt-alb-body p:last-child {
+.node--view-mode-teaser .field--name-field-tp-prd-body p:last-child,
+.node--view-mode-teaser .field--name-field-tp-srv-body p:last-child,
+.node--view-mode-teaser .field--name-field-tp-shw-body p:last-child,
+.node--view-mode-teaser .field--name-field-tp-alb-body p:last-child {
   padding-bottom: 0px;
 }
-.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container {
+.node--type-tp-showcase.node--view-mode-teaser .image-and-date-container {
   position: relative;
 }
-.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date {
+.node--type-tp-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date {
   position: absolute;
   background-color: #ffffff;
   right: 0px;
@@ -103,13 +103,13 @@
   color: #333333;
   text-align: center;
 }
-.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .day {
+.node--type-tp-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .day {
   font-size: 35px;
   font-weight: 600;
   display: block;
   line-height: 1;
 }
-.node--type-mt-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .month-year {
+.node--type-tp-showcase.node--view-mode-teaser .image-and-date-container .node__submitted-date .month-year {
   font-size: 14px;
   font-weight: 500;
 }

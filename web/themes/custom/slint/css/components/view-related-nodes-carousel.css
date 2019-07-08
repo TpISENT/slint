@@ -1,0 +1,71 @@
+/**
+ * @file
+ * Visual styles for SLINT's related nodes carousel.
+ */
+.mt-carousel-related-nodes .mt-carousel-item {
+  margin: 15px;
+}
+@media (max-width: 991px) {
+  .mt-carousel-related-nodes .mt-carousel-item {
+    margin: 8px;
+  }
+}
+
+/* overlay */
+.view-tp-carousel .mt-carousel-item > .overlay-container {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.view-tp-carousel {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.view-tp-carousel .owl-nav {
+  height: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+}
+.view-tp-carousel .owl-nav .owl-prev {
+  left: -50px;
+  margin-left: 0;
+}
+.view-tp-carousel .owl-nav .owl-next {
+  right: -50px;
+  margin-right: 0;
+}
+.view-tp-carousel .node--view-mode-tp-media-object .field--name-field-tp-prd-image {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+.view-tp-carousel .node--view-mode-tp-media-object .link--alternative {
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .view-tp-carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .view-tp-carousel .owl-nav {
+    display: none;
+  }
+  .view-tp-carousel .node--view-mode-tp-media-object .media {
+    display: block;
+  }
+  .view-tp-carousel .node--view-mode-tp-media-object .field--name-field-tp-prd-body {
+    display: none;
+  }
+  .view-tp-carousel .node--view-mode-tp-media-object .media-body .link--alternative {
+    display: none;
+  }
+  .view-tp-carousel .node--view-mode-tp-media-object .field--name-field-tp-prd-image {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
