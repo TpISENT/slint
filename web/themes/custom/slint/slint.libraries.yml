@@ -283,24 +283,24 @@ magnific-popup-field-image-init:
   dependencies:
     - slint/magnific-popup
 
-magnific-popup-field-mt-alb-image-init:
+magnific-popup-field-tp-alb-image-init:
   version: VERSION
   js:
-    js/init/magnific-popup-field-mt-alb-image-init.js: {}
+    js/init/magnific-popup-field-tp-alb-image-init.js: {}
   dependencies:
     - slint/magnific-popup
 
-magnific-popup-field-mt-bnf-image-init:
+magnific-popup-field-tp-bnf-image-init:
   version: VERSION
   js:
-    js/init/magnific-popup-field-mt-bnf-image-init.js: {}
+    js/init/magnific-popup-field-tp-bnf-image-init.js: {}
   dependencies:
     - slint/magnific-popup
 
-magnific-popup-field-mt-shw-image-init:
+magnific-popup-field-tp-shw-image-init:
   version: VERSION
   js:
-    js/init/magnific-popup-field-mt-shw-image-init.js: {}
+    js/init/magnific-popup-field-tp-shw-image-init.js: {}
   dependencies:
     - slint/magnific-popup
 
@@ -311,10 +311,10 @@ magnific-popup-field-highlight-image-init:
   dependencies:
     - slint/magnific-popup
 
-magnific-popup-field-mt-tmm-member-photo-init:
+magnific-popup-field-tp-tmm-member-photo-init:
   version: VERSION
   js:
-    js/init/magnific-popup-field-mt-tmm-member-photo-init.js: {}
+    js/init/magnific-popup-field-tp-tmm-member-photo-init.js: {}
   dependencies:
     - slint/magnific-popup
 
@@ -332,10 +332,10 @@ magnific-popup-field-video-init:
   dependencies:
     - slint/magnific-popup
 
-magnific-popup-field-mt-adf-image-init:
+magnific-popup-field-tp-adf-image-init:
   version: VERSION
   js:
-    js/init/magnific-popup-field-mt-adf-image-init.js: {}
+    js/init/magnific-popup-field-tp-adf-image-init.js: {}
   dependencies:
     - slint/magnific-popup
 
@@ -932,7 +932,7 @@ node-product:
   css:
     component:
       css/components/node-product.css: {}
-      css/components/field-mt-prd-additional-features.css: {}
+      css/components/field-tp-prd-additional-features.css: {}
 
 node-view-mode-slide-view:
   version: VERSION
@@ -1054,29 +1054,29 @@ node-images:
     component:
       css/components/node-images.css: {}
 
-field-mt-video:
+field-tp-video:
   version: VERSION
   css:
     component:
-      css/components/field-mt-video.css: {}
+      css/components/field-tp-video.css: {}
 
-field-mt-prd-content-tabs:
+field-tp-prd-content-tabs:
   version: VERSION
   css:
     component:
-      css/components/field-mt-prd-content-tabs.css: {}
+      css/components/field-tp-prd-content-tabs.css: {}
 
-field-mt-shw-content-collapses:
+field-tp-shw-content-collapses:
   version: VERSION
   css:
     component:
-      css/components/field-mt-shw-content-collapses.css: {}
+      css/components/field-tp-shw-content-collapses.css: {}
 
-field-mt-prd-content-collapses:
+field-tp-prd-content-collapses:
   version: VERSION
   css:
     component:
-      css/components/field-mt-prd-content-collapses.css: {}
+      css/components/field-tp-prd-content-collapses.css: {}
 
 media-tabs:
   version: VERSION
